@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    padding: 5em;
+    margin-bottom: 10px;
+
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+.left {
+    float: left;
+}
+
+#aside1 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    
+}
+
+#aside1 a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    padding: 1em;
+    background: #ccc;
+
+}
+
+#aside2 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding: 10px;
+    
+
+}
+
+#article1 {
+    width: 60%;
+    padding: 10px;
+
+}
+
+#main {
+    /* height: 600px; */
+    height: auto;
+}
+
+#foot {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #ccc;
+
+}
+
+@media only screen and (max-width: 468px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        margin: 0;
+        border-bottom: 1px solid cyan;
+    }
+
+    #main {
+        height: 900px;
+    }
+
+    #aside1 {
+        width: 100%;
+        display: block;
+    }
+
+    #aside1 a {
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    #aside1 a:hover {
+        background: #fff;
+        color: #000;
+    }
+
+    #article1 {
+        display: block;
+        width: 100%;
+        padding: .5em;
+    }
+
+    #aside2 {
+        width: 100%;
+        display: block;
+        padding: .5em;
+
+    }
+
+    #foot {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+}
